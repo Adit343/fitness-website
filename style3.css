@@ -1,0 +1,36 @@
+.jumbotron {
+    background-image: url('https://th.bing.com/th/id/OIP.GOiGH5VHzH1jOGcjQJFDQgHaEl?pid=ImgDet&rs=1');
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .jumbotron h1 {
+    font-size: 4rem;
+    color: red;
+  }
+  
+  .jumbotron p {
+    color: yellow;
+  }
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .products{
+    background-color: #f8f9fa;
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+
+  #copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  #footer{
+    background-color: #f1f1f1;
+  }
+
+ 

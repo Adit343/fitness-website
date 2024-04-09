@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fitness Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- embed a client side script -->
+    <!-- CDN links which means control distribution network which improves rendering time and website performance -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- below link is for footer social media icons and font-awesome is used via link -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style3.css">
+  </head>
+  <body>
+
+    <!-- navbar -->
+
+    <!-- navbar-expand for responsing collapsing -->
+    <!-- navbar-brand for your website name -->
+    <!-- navbar-toggler is used for collapse purpose -->
+    <!-- collapse navbar-collapse class is used for grouping and hiding contents by a parent breakpoint -->
+
+    <!-- nav-item and nav-link -->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <a class="navbar-brand">Fitness Website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="fitness.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#car">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#upc">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pricingtable.html" target="_blank">Pricing</a>
+          </li>
+        </ul>
+      </div>
+      <div class="text-end">
+        <a href="form2.html" class="btn btn-danger">SIGN IN</a>
+      </div>
+    </nav>
+
+    <!-- jumbotron is a box containing some extra attention to some special content or information  -->
+
+    <div class="jumbotron">
+      <h1>Welcome to Fitness Website!</h1>
+      <p>We offer a variety of fitness classes for college students</p>
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Know More</button>
+      <div id="demo" class="collapse">
+        "Our certified trainers are here to support you on your fitness journey every step of the way."
+        "From weight loss to muscle gain, we offer a variety of programs to fit your unique needs and preferences."
+      </div>
+    </div>
+
+    <!-- card is a flexible and extensible content container  -->
+    <!-- they have no margin by default  -->
+    <!-- containers are block of bootstrap that contain padding and align your content within a given device -->
+
+
+    <br id="car"><br><br>
+    <h1 style="text-align: center;">Info</h1>
+    <section class="products">
+      <div class="container">
+        <h2 id="Fe"></h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="yoga.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Yoga</h5>
+                  <p class="card-text">Practicing yoga regularly can improve flexibility, strength, balance, and overall well-being.
+                    There are many different styles of yoga, each with their own focus and approach.</p>
+                  <a href="yogatable.html" target="_blank" class="btn btn-primary">Know more</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="cardio(2).jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Cardio</h5>
+                  <p class="card-text">Cardio, short for cardiovascular exercise, is any physical activity that raises your heart rate and improves the function of your heart and lungs.</p>
+                  <a href="cardiotable.html" class="btn btn-primary">Know more</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card" >
+              <img class="card-img-top" src="str(2).jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">strength Training</h5>
+                  <p class="card-text">Strength training involves exercises designed to increase muscular strength and endurance.
+                    It typically involves the use of weights, resistance bands, or bodyweight exercises.</p>
+                  <a href="strengthtable.html" class="btn btn-primary">Know more</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+    <br ><br id="upc"><br><br>
+
+    <div class="container">
+      <h2>Upcoming Classes</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Class</th>
+            <th>Date</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Yoga</td>
+            <td>Monday, March 1st</td>
+            <td>6:00 PM - 7:00 PM</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Tuesday, March 2nd</td>
+            <td>7:00 AM - 8:00 AM</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Tuesday, March 2nd</td>
+            <td>7:30 PM - 8:30 PM</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Wednesday, March 3rd</td>
+            <td>5:00 PM - 6:00 PM</td>
+          </tr>
+          <tr>
+            <td>Cardio</td>
+            <td>Wednesday, March 3rd</td>
+          <td>5:00 PM - 6:00 PM</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Thursday, March 4th</td>
+          <td>3:00 PM - 4:00 PM</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Friday, March 5th</td>
+          <td>5:30 PM - 6:30 PM</td>
+          </tr>
+          <tr>
+            <td>Strength Training</td>
+            <td>Friday, March 5th</td>
+            <td>4:00 PM - 5:00 PM</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Saturday, March 6th</td>
+            <td>12:00 PM - 1:00 PM</td>
+          </tr>
+  </tbody>
+</table>
+</div>
+<br><br id="contact"><br><br>
+
+<div class="container">
+    <h2>Feedback</h2>
+    <form>
+
+      <!-- form-control class encourages proper grouping of labels,controls and form validation messaging -->
+      <!-- label tag associates text label with a form input -->
+
+      <div class="form-group">
+        <label for="name">Name:</label>
+
+        <!-- [A-Za-z] character can be uppercase or lowercase alphabetical letter -->
+        <!-- {1,32} specfies length of characters from 1 to 32 -->
+
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" maxlength="32" pattern="[A-Za-z]{1,32}">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+$">
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" rows="3" maxlength="250"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<footer class="text-center text-white" id="footer">
+  <!-- Grid container -->
+
+  <!-- py-12 means spacing top and bottom sides simultaneously for vertical padding -->
+
+  <div class="container py-12">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.facebook.com/" target="_blank"
+        role="button">
+        <i class="fa fa-facebook-official"></i>
+      </a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.twitter.com/" target="_blank"
+        role="button">
+        <i class="fa fa-twitter"></i>
+      </a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.instagram.com/" target="_blank"
+        role="button">
+        <i class="fa fa-instagram"></i>
+      </a>
+    <!-- Section: Social media -->
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" id="copyright">
+    © 2023 Copyright:
+    <a class="text-dark" href="5.html">Fitness website</a>
+  </div>
+
+</footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+  </html>
